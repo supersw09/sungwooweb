@@ -12,24 +12,102 @@
 
   gtag('config', 'UA-174249071-1');
 </script>
+<style>
+body{
+  margin: 0px;
+}
+  a{
+    color:red;
+    text-decoration: none;
+  }
+  .saw {
+    color:gray;
+  }
+   ul{
+     border-right: 1px solid gray;
+     width:150px;
+     margin: 0px;
+     background-color: #5ce75c;
+   }
+   /*
+   block level element
+   */
+   h1{
+    font-size: 45px;
+    text-decoration: none;
+    text-align:center;
+    padding:20px;
+    border-bottom: 1px solid gray;
+    margin:0;
+    background-color: #69eea8;
+   }
+   /*
+   inline element
+   */
+   p{
+      text-align:center;
+   }
+   h2{
+      text-align:center;
+   }
+   img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+   }
+   #active{
+     color:black;
+   }
+   h3{
+     margin: 0px;
+   }
+   #grid{
+     display: grid;
+     grid-template-columns: 200px 1fr;
+   }
+   @media(max-width:800px){
+     div{
+       display:none;
+     }
+   }
 
+</style>
 </head>
-<header><hgroup><h1><a href=1.html>딩마켓</a></h1></hgroup></header>
-<ul><a href="1.html">홈</a></ul>
-<ul><a href="https://smartstore.naver.com/deeing" target="_blank" title="네이버 쇼핑">스마트스토어</a></ul>
-<ul><a href="https://store.coupang.com/vp/vendors/A00303556/products?src=1139998&spec=10799999&addtag=999&ctag=A00303556&lptag=A00303556&itime=20200801140828&pageType=VENDOR&pageValue=A00303556&wPcid=15855717894079928918712&wRef=wing.coupang.com&wTime=20200801140828&redirect=landing" target="_blank" title="쿠팡">쿠팡</a></ul>
-<ul><a href="2.html" target="_blank" title="11번가">11번가</a></ul>
-<ul><a href="3.html" target="_blank" title="G마켓">G마켓</a></ul>
-<br>
 <body>
+<h1><a href="1.html" id="active">딩    마    켓</a></h1>
+
+<div id="grid">
+
+<ul>
+ <li><h3><a href="https://smartstore.naver.com/deeing" target="_blank" title="네이버 쇼핑">스마트스토어</a></h3></li>
+ <li><h3><a href="https://store.coupang.com/vp/vendors/A00303556/products?src=1139998&spec=10799999&addtag=999&ctag=A00303556&lptag=A00303556&itime=20200801140828&pageType=VENDOR&pageValue=A00303556&wPcid=15855717894079928918712&wRef=wing.coupang.com&wTime=20200801140828&redirect=landing" target="_blank" title="쿠팡">쿠팡</a></li>
+ <li><h3><a href="2.html" target="_blank" title="11번가" class="saw">11번가</a></h3></li>
+ <li><h3><a href="3.html" target="_blank" title="G마켓" class="saw">G마켓</a></h3></li>
+</ul>
+<!--
+<header><h1><a href=1.html>딩마켓</a></h1></header>
+<ul><h3><a href="1.html">홈</a><h3></ul>
+<ul><h3><a href="https://smartstore.naver.com/deeing" target="_blank" title="네이버 쇼핑">스마트스토어</a></h3></ul>
+<ul><h3><a href="https://store.coupang.com/vp/vendors/A00303556/products?src=1139998&spec=10799999&addtag=999&ctag=A00303556&lptag=A00303556&itime=20200801140828&pageType=VENDOR&pageValue=A00303556&wPcid=15855717894079928918712&wRef=wing.coupang.com&wTime=20200801140828&redirect=landing" target="_blank" title="쿠팡">쿠팡</a></ul>
+<ul><h3><a href="2.html" target="_blank" title="11번가">11번가</a></h3></ul>
+<ul><h3><a href="3.html" target="_blank" title="G마켓">G마켓</a></h3></ul>
+-->
+
+<div>
+<br>
+<h2>테스트용 홈페이지 입니다.</h2>
+<br>
 <p>딩마켓에 오신걸 환영합니다.</p>
 <p>테스트 사이트 입니다.</p>
 <br>
 <br>
-<p><h3>테스트용 사진</h3></p>
-<img src="testp.jpg" width="50%">
+<p>테스트용 사진</p>
+<img src="testp.jpg">
 <br>
 <p>
+</div>
+</div>
   <div id="disqus_thread"></div>
 <script>
 
@@ -50,6 +128,7 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
 </p>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
